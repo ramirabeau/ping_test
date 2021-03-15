@@ -19,7 +19,7 @@ for ip in ip_list:
         results_pass_file.write(f"Up {ip} Ping Successful" + "\n")
         print(f"{ip} UP")
     else:
-        results-fail_file.write(f"Down {ip} Ping Unsuccessful" + "\n")
+        results_fail_file.write(f"Down {ip} Ping Unsuccessful" + "\n")
         print(f"{ip} DOWN")
 
 results_pass_file.close()
